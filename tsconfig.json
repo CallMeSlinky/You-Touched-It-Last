@@ -1,0 +1,17 @@
+{
+    "exclude": ["node_modules"],
+    "compilerOptions": {
+        "target": "esnext",
+        "lib": ["ESNext"],
+        "moduleResolution": "node",
+        "types": ["nanos-world-types", "lua-types/5.3"],
+        "strict": true,
+        "outDir": "F:/SteamLibrary/steamapps/common/nanos-world/Server/Packages/last-touch",
+        "skipLibCheck": true
+    },
+    "tstl": {
+        "noHeader": true,
+        "luaLibImport": "inline",
+        "noImplicitSelf": true
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "tts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src",
+  "scripts": {
+    "build": "tstl",
+    "dev": "tstl --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lua-types": "^2.11.0",
+    "nanos-world-types": "github:CallMeSlinky/nanos-typescript-declarations",
+    "typescript-to-lua": "^1.4.3"
+  }
+}
